@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  tableData: any[] = [
+    {text: 'Hello'},
+    {text: 'It works'}
+  ];
+
 }
